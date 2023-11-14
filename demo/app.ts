@@ -1,5 +1,4 @@
-import { FileSystemIndexedStream } from "../models/indexed-stream";
-import { FileSystemIndexedStreamOptions } from "../models/indexed-stream-options";
+import { FileSystemIndexedStream, FileSystemIndexedStreamOptions } from "filesystem-indexed-stream";
 
 
 (async() => {

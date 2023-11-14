@@ -1,23 +1,38 @@
 {
   "name": "filesystem-indexed-stream",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A streaming module for dividing large files into smaller chunks and vice versa.",
   "homepage": "https://www.tomerzaidler.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/tomerzaidler/filesystem-indexed-stream.git"
   },
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "start": "tsc && node dist/app.js",
     "build": "tsc"
   },
-  "keywords": ["stream", "streams", "indexed stream", "chunk", "typescript"],
+  "keywords": [
+    "stream",
+    "streams",
+    "indexed stream",
+    "chunk",
+    "typescript"
+  ],
   "author": "Tomer Zaidler",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "20.4.2",
     "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "filesystem-indexed-stream": "^1.0.2"
   }
 }
