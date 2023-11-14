@@ -1,6 +1,6 @@
 {
   "name": "filesystem-indexed-stream",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A streaming module for dividing large files into smaller chunks and vice versa.",
   "homepage": "https://www.tomerzaidler.com",
   "repository": {
@@ -33,6 +33,6 @@
     "typescript": "5.2.2"
   },
   "dependencies": {
-    "filesystem-indexed-stream": "^1.0.2"
+    "filesystem-indexed-stream": "^1.0.3"
   }
 }
